@@ -1,0 +1,53 @@
+body{
+  background: #e0e0e0;
+}
+
+.title{
+  width:450px;
+  border: 15px;
+  border-style: double;
+  padding:30px;
+  margin: 10px auto 10px auto;
+}
+.verse1{
+  border-style: dotted;
+  width: 400px;
+  margin: 20px auto auto 400px;
+  padding: 20px;
+}
+.verse2{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+}
+.verse3{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px 400px auto auto;
+  padding: 20px;
+}
+.verse4{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+}
+.verse5{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px auto auto 400px;
+  padding: 20px;
+}
+.verse6{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+}
+.verse7{
+  border-style: dotted;
+  width: 400px;
+  margin: 10px 400px auto auto;
+  padding: 20px;
+}

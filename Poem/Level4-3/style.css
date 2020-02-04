@@ -1,0 +1,23 @@
+p{
+  font-family: 'Marck Script', cursive;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+}
+.container-2{
+  background: #EBD5B3;
+  margin: 200px 450px 200px 450px;
+  padding:10px 15px 10px 25px;
+}
+strong{
+  text-decoration: underline;
+}
+h1{
+  font-family: 'Satisfy', cursive;
+  /*margin: 0px 30px 0px 30px;*/
+  font-size: 150px;
+
+  position: fixed;
+  color: #000000;
+  font-family: 'Kadwa', serif;
+}

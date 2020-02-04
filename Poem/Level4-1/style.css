@@ -1,0 +1,48 @@
+p{
+  font-family: 'Special Elite', cursive;
+}
+
+.verse{
+  display: flex;
+ flex-flow: column;
+ justify-content: flex-end;
+ align-items: flex-end;
+ text-align: justify;
+ font-size: 25px;
+ line-height: 2.2em;
+}
+
+.title{
+  position: fixed;
+  width:550px;
+  justify-content: center;
+  text-align: center;
+  text-transform:uppercase;
+  font-family: 'IM Fell DW Pica', serif;
+  line-height: 2.5em;
+
+  margin:300px 0px 0px 40px;
+  border-style: outset;
+  background: #ECDCC9;
+
+  border-spacing: 20px;
+  padding: 20px 20px 20px 20px;
+}
+h1{
+  font-size: 38px;
+  color:#4D243D;
+}
+h2{
+  font-size: 28px;
+  color:#3e3e3e;
+}
+strong{
+  color:#C21F40;
+}
+em{
+  color:#F9DC5C;
+}
+body{
+  color:#171717;
+  background: #FCF9EC;
+}
