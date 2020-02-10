@@ -1,0 +1,248 @@
+body{
+  background: black;
+}
+.shape{
+  display: flex;
+}
+.circle-1{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color: #fff59d;
+  border-radius: 50%;
+  top:300px;
+  right:300px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-2{
+  width: 30px;
+  height:30px;
+  position: fixed;
+  background-color: #fff9c4;
+  border-radius: 50%;
+  top:350px;
+  right:390px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-3{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color: yellow;
+  border-radius: 50%;
+  top:600px;
+  left:350px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-4{
+  width: 20px;
+  height:20px;
+  position: fixed;
+  background-color: #fff176;
+  border-radius: 50%;
+  top:570px;
+  left:300px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-5{
+  width: 25px;
+  height:25px;
+  position: fixed;
+  background-color: #fdd835;
+  border-radius: 50%;
+  top:200px;
+  left:100px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-6{
+  width: 25px;
+  height:25px;
+  position: fixed;
+  background-color: #ffff8d;
+  border-radius: 50%;
+  top:600px;
+  right:50px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-7{
+  width: 45px;
+  height:45px;
+  position: fixed;
+  background-color: #ffff00;
+  border-radius: 50%;
+  top:680px;
+  right:50px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-8{
+  width: 40px;
+  height:40px;
+  position: fixed;
+  background-color: #ffee58;
+  border-radius: 50%;
+  top:780px;
+  left:50px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-9{
+  width: 20px;
+  height:20px;
+  position: fixed;
+  background-color: #fff59d;
+  border-radius: 50%;
+  top:540px;
+  left:900px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-10{
+  width: 30px;
+  height:30px;
+  position: fixed;
+  background-color: #fffde7;
+  border-radius: 50%;
+  top:520px;
+  left:950px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-11{
+  width: 35px;
+  height:35px;
+  position: fixed;
+  background-color: #fff9c4;
+  border-radius: 50%;
+  top:40px;
+  left:600px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;
+}
+.circle-12{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  background-color: #fff59d;
+  border-radius: 50%;
+  top:800px;
+  left:550px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;}
+
+.circle-13{
+  width: 30px;
+  height:30px;
+  position: fixed;
+  background-color: #fff59d;
+  border-radius: 50%;
+  top:100px;
+  right:550px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  opacity: 50%;}
+
+.title{
+  border: double #FFFDE1;
+  /*color: #34A7B2;*/
+  font-weight: bolder;
+  text-align: center;
+  margin: auto auto 800px 1150px;
+  width:500px;
+  font-family: 'Ubuntu', sans-serif;
+  position: fixed;
+  animation: colorchange infinite 5s;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-between;
+}
+.verse1{
+  border-style: dotted;
+  color: #FFFF7F;
+  width: 14%;
+  height: 14%;
+
+  padding: 20px;
+  margin:20px auto auto 10px;
+}
+.verse2{
+  border-style: dotted;
+  color:#FFD926;
+  width: 14%;
+  height: 14%;
+  padding: 20px;
+  margin:100px auto auto auto;
+}
+.verse3{
+  border-style: dotted;
+  color: #FFBA07;
+  padding: 20px;
+  width: 14%;
+  height: 14%;
+  margin:auto 0px auto 10px;
+}
+.verse4{
+  border-style: dotted;
+  color: #FFF275;
+  padding: 20px;
+  width: 14%;
+  height: 14%;
+  margin:0px 100px auto 1300px;
+}
+.verse5{
+  border-style: dotted;
+  color: #FDF5BF;
+  padding: 20px;
+  width: 14%;
+  height:14%;
+  margin: 0px 0px auto 400px;
+  }
+
+.verse6{
+  border-style: dotted;
+  color: #F3FF93;
+  padding: 20px;
+  width: 14%;
+  height: 14%;
+  margin: 0px 0px auto 1000px;
+}
+.verse7{
+  border-style: dotted;
+  color: #F9FD50;
+  padding:20px;
+  width: 14%;
+  height: 14%;
+  margin:0px 0px auto 200px;
+}
+/*@keyframes pulse {
+  0% {transform: scale(1);
+    }
+  100% {transform: scale(1.2);
+    }*/
+@keyframes colorchange {
+  0% {color:#34A7B2;}
+  100%{color:#FFD926;}
+}
+@keyframes pulse {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.5);}
+}
+
+}
+h1{font-size: 40px;}
+h2{font-size: 30px;}
+p{font-size: 15px;
+color: white;
+text-align: center;
+line-height: 22px;
+font-family: 'Slabo 27px', serif;}

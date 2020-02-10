@@ -48,27 +48,24 @@ a{text-decoration: none;
   border: dotted;
 }
 .square{
-  width:18vw;
-  height:18vw;
-  background: #ED553B;
+
   display: flex;
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 40px;
-  animation: bounce 0.8s alternate infinite ease;
-  animation-play-state: running;
-  animation-delay: 0.1s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:'Oxygen', sans-serif;
+  font-size: 22px;
+  line-height: 45px;
+  color: #ED553B;
 }
 .square a{
-  margin-top: 126px;
-  margin-left: 76px;
+  text-align: center;
   color: #ED553B;
+  font-weight: bold;
 }
-.square:hover a{
-  color: #ED553B;
-}
-.square:hover{
-  background: transparent;
-  border: dotted #ED553B;
+ul{
+  margin-right: 200px;
+  font-family:'Oxygen', sans-serif;
 }
 .triangle{
   width:0;

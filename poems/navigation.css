@@ -1,0 +1,49 @@
+.nav{
+  width: 200px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+
+}
+
+.nav a{
+  text-decoration: none;
+  font-family:'Oxygen', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ED553B;
+}
+
+.nav:hover{
+  color: #ED553B;
+  border-radius: 20px;
+}
+
+.nav a:hover{
+  color: #20639B;
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  border: 5px solid #ED553B;
+  border-radius: 50%;
+  background:#ED553B;
+}
+
+a.circle:hover{
+  background: #20639B;
+}
+
+a.back{
+  font-family:'Oxygen', sans-serif;
+}
+
+.selected{
+  width: 15px;
+  height: 15px;
+  background: #20639B;
+}

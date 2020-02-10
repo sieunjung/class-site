@@ -1,0 +1,156 @@
+body{
+  background: #000807;
+}
+p{
+  font-family: 'Neucha', cursive;
+}
+
+h1{
+  font-size: 40px;
+  color:white;
+  display: flex;
+  text-align: center;
+  margin:570px auto auto 700px;
+  font-family: 'Noto Sans', sans-serif;
+  color:#DEFCF9;
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation: pulse 1s;
+}
+
+@-webkit-keyframes OutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.stanza1 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:40px;
+  transform:translateY(-50%);
+  text-align: justify;
+  line-height: 25px;
+}
+
+.stanza2 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:280px;
+  transform:translateY(-50%);
+  line-height: 25px;
+}
+
+.stanza3 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:510px;
+  transform:translateY(-50%);
+  line-height: 25px;
+}
+
+.stanza4 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:740px;
+  transform:translateY(-50%);
+  line-height: 25px;
+}
+.stanza5 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:970px;
+  transform:translateY(-50%);
+  line-height: 25px;
+}
+
+.stanza6 {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:1200px;
+  transform:translateY(-50%);
+  line-height: 25px;
+}
+.stanza7 {
+  position: absolute;
+  width: 210px;
+  height: 380px;
+  font-size: 12pt;
+  color:#000807;
+  top:54%;
+  left:1430px;
+  transform:translateY(-50%);
+  line-height: 20px;
+  line-height: 25px;
+}
+
+.stanzacolor {
+  position:absolute;
+  display:flex;
+  background:#C3BEF0;
+  height:80px;
+  width:1650px;
+  transition: all .5s ease;
+  font-family:arial black;
+  font-size:40pt;
+  text-align:center;
+  top:217px;
+  left:15px;
+}
+.title{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 115px;
+  color:#000807;
+  margin-top: -40px;
+  margin-left: 225px;
+  font-weight: bold;
+}
+.stanzacolor:hover {
+  height: 340px;
+}

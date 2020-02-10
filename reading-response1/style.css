@@ -1,0 +1,19 @@
+html{
+  margin-top: 10px;
+}
+body{
+  font-family:'Oxygen', sans-serif;
+   line-height: 40px;
+  text-align:justify;
+  font-size: 14px;
+}
+strong {
+  font-weight: bold;
+  font-size: 26px;
+}
+ul{
+  margin-left: 150px;
+  width:800px;
+  padding:10px;
+  padding-top:5px;
+}

@@ -25,27 +25,19 @@ a{text-decoration: none;
 .circle{
   width:18vw;
   height:18vw;
-  background: #FFD400;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #FFD400;
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 40px;
-  animation: bounce 0.8s alternate infinite ease;
-  animation-play-state: running;
+  font-family:'Oxygen', sans-serif;
+  font-size: 22px;
+  line-height: 45px;
 }
 .circle a{
   color: #FFD400;
-}
-.circle:hover a{
-  color: #FFD400;
-}
-.circle:hover{
-  background: transparent;
-  border: dotted;
+  font-weight: bold;
 }
 .square{
   width:18vw;
