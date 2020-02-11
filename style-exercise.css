@@ -49,7 +49,29 @@ a{text-decoration: none;
   border: dotted;
 }
 .square{
-
+  width:18vw;
+  height:18vw;
+  background: #ED553B;
+  display: flex;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 40px;
+  animation: bounce 0.8s alternate infinite ease;
+  animation-play-state: running;
+  animation-delay: 0.1s;
+  justify-content: center;
+  color:#ED553B;
+}
+.square a{
+  color: #ED553B;
+}
+.square:hover a{
+  color: #ED553B;
+}
+.square:hover{
+  background: transparent;
+  border: dotted #ED553B;
+}
+.triangle{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,48 +79,18 @@ a{text-decoration: none;
   font-family:'Oxygen', sans-serif;
   font-size: 22px;
   line-height: 45px;
-  color: #ED553B;
-}
-.square a{
-  text-align: center;
-  color: #ED553B;
-  font-weight: bold;
-}
-ul{
-  margin-right: 85px;
-  font-family:'Oxygen', sans-serif;
-}
-.triangle{
-  width:18vw;
-  height:18vw;
-  background-image:url('assets/triangle.svg');
-  background-size: cover;
-  display: flex;
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 40px;
-  text-align:center;
-  animation: bounce 0.8s alternate infinite ease;
-  animation-play-state: running;
-  animation-delay: 0.2s;
-  /* align-items: center; */
-  justify-content: center;
   color:#20639B;
 }
 .triangle a{
   /* margin-top: 156px; */
   /* margin-left: -39px; */
   color: #20639B;
-  opacity:0;
+  text-align: center;
+  font-weight: bold;
 }
-.triangle:hover a{
-  color: #20639B;
-  opacity:1;
-}
-.triangle:hover{
-  background: transparent;
-
-  background-image:url('assets/triangle-outline.svg');
-  /* border: dotted #20639B; */
+ul{
+  margin-right: 85px;
+  font-family:'Oxygen', sans-serif;
 }
 
 .shape-word{
@@ -109,7 +101,6 @@ ul{
 .shape:hover .shape-word {
   opacity:1;
 }
-
 @keyframes bounce {
   0% {transform: translateY(0);}
   100% {transform: translateY(-22px);}

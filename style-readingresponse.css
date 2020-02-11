@@ -1,0 +1,21 @@
+html{
+  margin-top: 15px;
+  margin-left: 50px;
+  width:800px;
+  padding:10px;
+  padding-top:5px;
+}
+body{
+  font-family:'Oxygen', sans-serif;
+  text-align:justify;
+  background:#EFEEEA;
+  color: #17152a;
+}
+strong {
+  font-weight: bold;
+  font-size: 27px;
+}
+ul{
+  line-height: 45px;
+  font-size: 15px;
+}

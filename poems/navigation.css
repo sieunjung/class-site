@@ -4,8 +4,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-
+  /* position: absolute; */
+  position:fixed;
+  bottom:10px;
+  left:50%;
+  transform:translateX(-50%);
 }
 
 .nav a{

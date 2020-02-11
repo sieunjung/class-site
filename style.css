@@ -16,11 +16,12 @@ a{text-decoration: none;
 }
 
 .flex {
-  margin-top:150px;
-  margin-left: 120px;
+  margin-top:170px;
   display:flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .circle{
   width:18vw;
@@ -57,10 +58,10 @@ a{text-decoration: none;
   animation: bounce 0.8s alternate infinite ease;
   animation-play-state: running;
   animation-delay: 0.1s;
+  justify-content: center;
+  color:#ED553B;
 }
 .square a{
-  margin-top: 126px;
-  margin-left: 76px;
   color: #ED553B;
 }
 .square:hover a{
@@ -71,11 +72,10 @@ a{text-decoration: none;
   border: dotted #ED553B;
 }
 .triangle{
-  width:0;
-  height:0;
-  border-left: 9vw solid transparent;
-  border-right: 9vw solid transparent;
-  border-bottom: 18vw solid #20639B;
+  width:18vw;
+  height:18vw;
+  background-image:url('assets/triangle.svg');
+  background-size: cover;
   display: flex;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 40px;
@@ -83,19 +83,38 @@ a{text-decoration: none;
   animation: bounce 0.8s alternate infinite ease;
   animation-play-state: running;
   animation-delay: 0.2s;
+  /* align-items: center; */
+  justify-content: center;
+  color:#20639B;
 }
 .triangle a{
-  margin-top: 156px;
-  margin-left: -39px;
+  /* margin-top: 156px; */
+  /* margin-left: -39px; */
   color: #20639B;
+  opacity:0;
 }
 .triangle:hover a{
   color: #20639B;
+  opacity:1;
 }
 .triangle:hover{
   background: transparent;
-  border: dotted #20639B;
+
+  background-image:url('assets/triangle-outline.svg');
+  /* border: dotted #20639B; */
 }
+
+.shape-word{
+  position: absolute;
+  bottom:-60px;
+  opacity: 0;
+}
+
+.shape:hover .shape-word {
+  opacity:1;
+}
+
+
 @keyframes bounce {
   0% {transform: translateY(0);}
   100% {transform: translateY(-22px);}
