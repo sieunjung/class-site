@@ -1,0 +1,60 @@
+body{
+  font font-family: Verdana;
+}
+.top{
+  background-color: pink;
+  padding:15px;
+  text-align: center;
+  color: red;
+}
+.container {
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.box {
+  background-color:skyblue;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:blue;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:10px 0px 40px 10px;
+  font-size: 100%;
+  border: dashed red;
+  text-align: center;
+  color: green;
+}
+.right {
+  background-color:skyblue;
+  float:left;
+  width:20%;
+  padding:0px;
+  margin-top:7px;
+  text-align:center;
+  color: blue;
+}
+
+@media only screen and (max-width:620px) {
+  .menu, .main, .right {
+    width:100%;
+  }
+.bottom {
+  background-color: green;
+  text-align: center;
+  padding:10px;
+  margin-top: 7px;
+
+  /* color:yellow;
+  border: line; */
+}
