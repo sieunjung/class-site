@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Story</title>
+  <link rel="stylesheet" href="page6.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+  <div class="nav">
+    <a href="page1.html">
+      <img src="images/button.gif" />
+      <div class="btn-text">
+        restart
+      </div>
+    </a>
+  </div>
+  <div class="box">
+    <div class="gif">
+      <img class="active" src="images/base.gif" alt="base" height="550" width="550" align="right">
+    </div>
+    <div class="text">
+      <div class="appear" style="animation-delay:0.2s">
+        <p>
+          6. Once cool pour the crème fraiche into a clean bowl and whisk until you have soft peaks. Gently fold in the honey to taste and set aside.<br>
+      </div>
+      <div class="appear" style="animation-delay:2.2s">
+        <p>7. Place one half of the sponge onto the desired serving plate and gently spread over the honey crème fraiche, <em>(reserving a spoonful for the top)</em> don’t spread right to the edges or it will spill out once you put the top on.
+          Arrange the fresh fruit on top of the cream and gently place the other sponge on top. Decorate the top as desired before serving.
+        </p>
+      </div>
+    </div>
+
+    <div class="draggable-canvas">
+      <div class="draggable drag">
+        <img src="images/red.gif" width="100px" height="100px" style="left:30px; top:20px;">
+      </div>
+      <div class="draggable drag">
+      <img src="images/red.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/red.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/red.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/purple.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/purple.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/purple.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/purple.gif" width="100px" height="100px"></div>
+      <div class="draggable drag">
+      <img src="images/strawberry.gif" width="100px" height="120px"></div>
+      <div class="draggable drag">
+      <img src="images/strawberry.gif" width="100px" height="120px"></div>
+      <div class="draggable drag">
+      <img src="images/strawberry.gif" width="100px" height="120px"></div>
+      <div class="draggable drag">
+      <img src="images/strawberry.gif" width="100px" height="120px"></div>
+      </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <script>
+      $(function() {
+        $(".draggable").draggable();
+      });
+    </script>
+</body>
+
+</html>

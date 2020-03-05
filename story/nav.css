@@ -1,0 +1,46 @@
+.nav{
+/* width: 200px; */
+margin-bottom: 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* position: absolute; */
+position:fixed;
+/* bottom:0px;
+left:50%; */
+top:50%;
+/* transform:translateX(-50%); */
+z-index: 99999;
+cursor: pointer;
+}
+.nav a{
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+.nav a:hover{
+  color:white;
+}
+
+.prev a:hover .btn-text{
+  opacity:1;
+}
+.next a:hover .btn-text{
+  opacity:1;
+}
+.next{
+  margin-left:1500px;
+}
+.prev{
+  right:0px;
+}
+.btn-text {
+  position: absolute;
+  top:-30%;
+  left:20%;
+  transform: translate(10%, -60%);
+  opacity:0;
+}

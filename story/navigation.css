@@ -1,0 +1,38 @@
+
+.nav{
+/* width: 200px; */
+margin-bottom: 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* position: absolute; */
+position:fixed;
+bottom:0px;
+left:50%;
+transform:translateX(-50%);
+z-index: 99999;
+cursor: pointer;
+}
+.nav a{
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+.nav a:hover{
+  color:white;
+}
+
+.nav a:hover .btn-text{
+  opacity:1;
+}
+
+.btn-text {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -60%);
+  opacity:0;
+}
