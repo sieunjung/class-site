@@ -1,0 +1,69 @@
+body {
+  margin:0;
+}
+.button {
+  background: green;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.button:hover{
+  background: lightgreen;
+}
+#box {
+  background: black;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  top:0;
+  right:-300px;
+  width:300px;
+  text-align: center;
+  transition:transform 1s ease;
+}
+.open {
+  transform: translateX(-300px);
+}
+.marquee {
+  width:300px;
+  position: fixed;
+
+  left:50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border:1px dash #ccc;
+  background: orange;
+}
+
+.marquee1 {
+  width:300px;
+  left:50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top:100px;
+  overflow: hidden;
+  border:1px dash #ccc;
+  background: purple;
+}
+
+.marquee2 {
+  width:300px;
+  left:50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top:170px;
+  overflow: hidden;
+  border:1px dash #ccc;
+  background: yellow;
+}
+.marquee3 {
+  width:300px;
+  left:50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top:230px;
+  overflow: hidden;
+  border:1px dash #ccc;
+  background: pink;
+}
